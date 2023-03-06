@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.crud2{
+    width: 50%;
+    margin: 50px auto;
+}
+.crud2 .inputs{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 15px;
+    align-items: center;
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.inputs h3{
+    font-size: 30px;
+    font-weight: 500;
+    color: coral;
+}
+.crud2 .inputs input{
+    padding: 5px;
+    width: 100%;
+    border: 1px solid gainsboro;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.crud2 .inputs input:checked{
+   
+}
+.crud2 .inputs button{
+    width: 190px;
+    background-color: darkgray;
+    border: none;
+    padding: 5px 7px;
+    color: white;
+}
+.crud2 .inputs button:checked{
+    background-color: antiquewhite;
+}
+.crud2 table{
+    width: 100%;
+}
+table ,td ,th{
+    border: 1px solid black;
+    font-size: 14px;
+    font-weight: 500;
+}
+table{
+    border-collapse: collapse;
+}
